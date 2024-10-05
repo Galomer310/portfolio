@@ -1,0 +1,137 @@
+
+
+/* nav bar  */
+.header {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-link:hover {
+    background-color: red;
+    border-radius: 10px;
+}
+
+#navbarsExample07 {
+    margin-left: 10rem;
+    font-size: 2em;
+}
+
+.navimg {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    transition: transform 0.3s; /* Smooth transition */
+}
+
+.navimg:hover {
+    transform: scale(1.5); /* Slightly enlarge the image on hover */
+}
+
+/* Jumbotron */
+.jumbotronTxt {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.geToKm {
+    background-color: rgba(85, 138, 230, 0.1);
+    border-radius: 10px;
+    padding: 5px;
+}
+/* h4 get to know and skills */
+.getToKnow {
+    margin-left: 10rem;
+    font-size: 30px;
+}
+
+.lead {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactBtn {
+    margin-left: 15rem;
+    background-color: purple;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 30px;
+}
+
+
+/* projects */
+.projectsP {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    margin-right: 5rem;
+}
+
+.projectsP:hover {
+    font-size: 1.5rem;
+    color: red;
+    border-radius: 10px;
+}
+
+.porjectsP2 {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    margin-right: 5rem;
+}
+
+.porjectsP2:hover {
+    font-size: 150%;
+    background-color: antiquewhite;
+    padding-left: 15px;
+    color: rgb(121, 24, 97);
+    transition: font-size 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+img {
+    margin: 5px 20px;
+    border: 2px solid black;
+}
+
+.howDoesItWork {
+    background-color: purple;
+    margin: 20px 20px 30px 0px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* submit form */
+.form-label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.submitBtn {
+    background-color: rgb(139, 201, 239);
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 6.5em;
+    padding: 8px 30px;
+}
+
+.submitBtn:hover {
+    background-color: rgb(212, 186, 237);
+    transition: background-color 0.5s ease-in-out;
+}
+
+
+
+/* footer */
+.footerText {
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .projectsP {
+        margin-right: 20px; /* Reduce margin on smaller screens */
+    }
+    .howDoesItWork {
+        margin-left: 20px; /* Adjust margin for better alignment */
+    }
+}
